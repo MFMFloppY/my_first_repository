@@ -3,8 +3,8 @@ from keyboard import is_pressed
 
 
 def current_date():
-    """Выводит текущее время."""
-    
+    """Выводит текущее время по нажатию кнопки Enter."""
+
     while True:
 
         if is_pressed("Enter"):
